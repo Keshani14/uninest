@@ -10,33 +10,87 @@ public class Subject {
     private String code;
     private int academicYear;
     private int semester;
+    private int credits;
     private String status; // upcoming, ongoing, completed
     private Timestamp createdAt;
 
-    public int getSubjectId() { return subjectId; }
-    public void setSubjectId(int subjectId) { this.subjectId = subjectId; }
+    public int getSubjectId() {
+        return subjectId;
+    }
 
-    public int getCommunityId() { return communityId; }
-    public void setCommunityId(int communityId) { this.communityId = communityId; }
+    public void setSubjectId(int subjectId) {
+        this.subjectId = subjectId;
+    }
 
-    public String getName() { return name; }
-    public void setName(String name) { this.name = name; }
+    public int getCommunityId() {
+        return communityId;
+    }
 
-    public String getDescription() { return description; }
-    public void setDescription(String description) { this.description = description; }
+    public void setCommunityId(int communityId) {
+        this.communityId = communityId;
+    }
 
-    public String getCode() { return code; }
-    public void setCode(String code) { this.code = code; }
+    public String getName() {
+        return name;
+    }
 
-    public int getAcademicYear() { return academicYear; }
-    public void setAcademicYear(int academicYear) { this.academicYear = academicYear; }
+    public void setName(String name) {
+        this.name = name;
+    }
 
-    public int getSemester() { return semester; }
-    public void setSemester(int semester) { this.semester = semester; }
+    public String getDescription() {
+        return description;
+    }
 
-    public String getStatus() { return status; }
-    public void setStatus(String status) { this.status = status; }
+    public void setDescription(String description) {
+        this.description = description;
+    }
 
-    public Timestamp getCreatedAt() { return createdAt; }
-    public void setCreatedAt(Timestamp createdAt) { this.createdAt = createdAt; }
+    public String getCode() {
+        return code;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
+    }
+
+    public int getAcademicYear() {
+        return academicYear;
+    }
+
+    public void setAcademicYear(int academicYear) {
+        this.academicYear = academicYear;
+    }
+
+    public int getSemester() {
+        return semester;
+    }
+
+    public void setSemester(int semester) {
+        this.semester = semester;
+    }
+
+    public int getCredits() {
+        return credits;
+    }
+
+    public void setCredits(int credits) {
+        this.credits = credits;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    public Timestamp getCreatedAt() {
+        return createdAt;
+    }
+
+    public void setCreatedAt(Timestamp createdAt) {
+        this.createdAt = createdAt;
+    }
 }
